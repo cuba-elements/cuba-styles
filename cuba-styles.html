@@ -1,0 +1,34 @@
+<link rel="import" href="../polymer/polymer.html">
+
+<!--
+`cuba-styles`
+
+
+@demo demo/index.html 
+-->
+
+<dom-module id="cuba-styles">
+  <template>
+    <style>
+      :host {
+        display: block;
+      }
+    </style>
+    <h2>Hello [[prop1]]</h2>
+  </template>
+
+  <script>
+    Polymer({
+
+      is: 'cuba-styles',
+
+      properties: {
+        prop1: {
+          type: String,
+          value: 'cuba-styles',
+        },
+      },
+
+    });
+  </script>
+</dom-module>
